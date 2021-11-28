@@ -2,7 +2,7 @@ from cryptography.fernet import Fernet
 wd = input("What is the master password?")
 def write_key():
     key = Fernet.generate_key()
-    with open("key.key", "wb") as key_file:
+    with open("key.key", "w") as key_file:
         key_file.write(key)
 
 
