@@ -1,6 +1,6 @@
 pwd = input("What is the master password?")
 quit = "True"
-while(quit):
+while not quit:
     mode = input("Would you like to add new password or view exsisting one (view, add) if you want to quit choose q")
     if mode == "q":
         quit = "False"
