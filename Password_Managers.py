@@ -26,6 +26,6 @@ while not quit:
         pass 
     elif mode == "add":
         pass
-    else
+    else:
         print("Invalid mode. \n")
         continue
