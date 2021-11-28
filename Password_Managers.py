@@ -1,4 +1,4 @@
-from cryptographyfernet import Fernet
+from cryptography.fernet import Fernet
 wd = input("What is the master password?")
 def write_key():
     key = Fernet.generate_key()
