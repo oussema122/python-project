@@ -24,7 +24,7 @@ while not quit:
         quit = "True"
     if mode == "view":
         pass 
-    elif mode == "add"
+    elif mode == "add":
         pass
     else:
         print("Invalid mode. \n")
