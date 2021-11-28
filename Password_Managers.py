@@ -28,4 +28,4 @@ while not quit:
         pass
     else:
         print("Invalid mode. \n")
-        continu
+        continue
