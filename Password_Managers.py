@@ -15,7 +15,7 @@ def load_key():
 
 
 key = load_key()
-fer = Fernet(key)
+fer = Fernet(key
 
 quit = "False"
 while not quit:
