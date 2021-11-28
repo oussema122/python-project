@@ -1,4 +1,4 @@
-from cryptography.fernet import Ferne
+from cryptography.fernet import Fernet
 
 
 def write_key():
