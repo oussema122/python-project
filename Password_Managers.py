@@ -17,6 +17,8 @@ def load_key():
 key = load_key()
 fer = Fernet(key)
 def add():
+    name = input('Account Name: ')
+    
 quit = "False"
 while not quit:
     mode = input("Would you like to add new password or view exsisting one (view, add) if you want to quit choose q : \n")
